@@ -1,0 +1,16 @@
+* {
+    font-family: arial;
+}
+
+body {
+    margin: 20px;
+}
+
+a {
+    color: #DD7700;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

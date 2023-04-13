@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*** Section***/
+
+section {
+    height: 100vh;
+    display: flex;
+}
+
+/****Travail sur la bloc contenu****/
+.contenu {
+    width: 60vw;
+    height: 60vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*****Travail sur les articles ****/
+
+article {
+    width: 30%;
+    height: 100%;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+}
+
+.titre {
+    line-height: 3rem;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+p {
+    line-height: 1.2rem;
+    text-align: justify;
+    padding: 0 10px;
+}
+
+footer {
+    margin-top: auto;
+}
