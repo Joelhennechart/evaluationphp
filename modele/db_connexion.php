@@ -3,8 +3,7 @@
 /**
  * Création d'une instance PDO pour se connecter à la base de données stagiaires
  */
-
-$dsn = "mysql:host=localhost;dbname=stagiaires;charset=utf8";
+$dsn = "mysql:host=localhost;dbname=evaluation_php;charset=utf8";
 $user = "root";
 $password = "";
 try {
