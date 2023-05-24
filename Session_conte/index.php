@@ -1,6 +1,7 @@
 <?php
+include_once("../modele/db_connexion.php");
+include_once("../includes/head.php");
 session_start();
-include_once("modele/db_connexion.php");
 
 /**
  * Création de constante des erreurs possibles
@@ -81,29 +82,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 ?>
-
-
-<div class="block p-20 form-container">
-    <h1>Accès à votre compte</h1>
-    <div class="form-control">
-        <?= $message ?>
-    </div>
-    <form action="#" method="POST">
-        <div class="form-control">
-
-            <input type="text" name="login" id="login" placeholder="Login">
-            <?= $errors['login'] ? '<p class="text-error">' . $errors['login'] . '</p>' : "" ?>
-
-        </div>
-        <div class="form-control">
-
-            <input type="password" name="passwd" id="passwd" placeholder="Mot de passe">
-            <?= $errors['passwd'] ? '<p class="text-error">' . $errors['passwd'] . '</p>' : "" ?>
-        </div>
-
-        <div class="form-control">
-            <input type="submit" class="btn btn-primary" value="VALIDER">
-        </div>
-
-    </form>
-    <a href="Create_compte.php"> Créer votre compte</a>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <a href="Create_compte.php" class="btn btn-danger">Inscription</a>
+        <a href="login.php" class="btn btn-success">login</a>
+    </div>  
+</body>
+</html>
