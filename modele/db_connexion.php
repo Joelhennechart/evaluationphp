@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Création d'une instance PDO pour se connecter à la base de données stagiaires
+ * Création d'une instance PDO pour se connecter à la base de donnée evaluation_php
  */
 $dsn = "mysql:host=localhost;dbname=evaluation_php;charset=utf8";
 $user = "root";
