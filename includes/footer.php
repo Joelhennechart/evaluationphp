@@ -7,18 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 </head>
-
-<header>
-<div class="col-md-6 p-4 ps-md-0">
-    <h1 class="mt-0">Todo List & Bibliothèque Musicale</h1>
-</div>
-<div class="row g-0 bg-body-secondary position-relative">
-  <div class="col-md-12 mb-md-12 p-md-4">
-    <img src="../image/logo.png" class="w-25" alt="logo">
-    <a href="../Session_conte/index.php" class="stretched-link"></a>
-  </div>
-</div>
-    
-</header>
-
-
+<footer class="footer">
+		<p>Copyright © 2023 Hennechart Joël 26120 montmeyran</p>
+		<p><a href="monfichier-klordno74juf21maota5aedgasw8pd.html" title="monfichier-klordno74juf21maota5aedgasw8pd.html" target="_blank">Mentions légales</a></p>
+</footer>

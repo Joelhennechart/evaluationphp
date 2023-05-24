@@ -1,6 +1,7 @@
 <?php
 include_once("../modele/db_connexion.php");
 include_once("../includes/head.php");
+include_once("../includes/footer.php");
 session_start();
 
 /**

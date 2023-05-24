@@ -1,6 +1,7 @@
 <?php
 
 include_once("../modele/db_connexion.php");
+require_once('../includes/head.php');
 
 /**
  * Création de constante des erreurs possibles
@@ -93,7 +94,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <html lang="fr">
 
 <head>
-    <?php require_once('../includes/head.php'); ?>
+    <?php ; ?>
     <link rel="stylesheet" href="public/css/style.css" />
     <title>Crée votre compte</title>
 
@@ -130,6 +131,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </div>
 
     </section>
+    <?php include_once("../includes/footer.php");?>
 </body>
 
 </html>

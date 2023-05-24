@@ -1,5 +1,6 @@
 <?php
 include_once("../includes/head.php");
+
 session_start();
 @$login = $_POST["login"];
 @$pass = $_POST["pass"];
@@ -42,7 +43,8 @@ if (isset($valider)) {
                     </div>
                 </form>
             </div>
-        </section>    
+        </section>
+    <?php include_once("../includes/footer.php") ?> ;    
 </body>
 
 </html>
